@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="ButcheredHumanlikeCorpse"]/stages/li[label="I butchered humanlike"]/baseMoodEffect</xpath>
+    <value>
+      <baseMoodEffect>0</baseMoodEffect>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="KnowButcheredHumanlikeCorpse"]/stages/li[label="we butchered humanlike"]/baseMoodEffect</xpath>
+    <value>
+      <baseMoodEffect>0</baseMoodEffect>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="ButcheredHumanlikeCorpseOpinion"]/stages/li[label="butchered humanlike corpse"]/baseOpinionOffset</xpath>
+    <value>
+      <baseOpinionOffset>0</baseOpinionOffset>
+    </value>
+  </Operation>
+</Patch>
